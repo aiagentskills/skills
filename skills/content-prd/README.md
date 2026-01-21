@@ -24,7 +24,7 @@ A content-focused PRD skill that captures messaging, deliverables, and channel r
 
 ## Repository
 
-https://github.com/baptisteArno/typebot.io/tree/main/.claude/skills/content-prd
+https://github.com/claude-skills-registry/skills/tree/main/skills/content-prd
 
 ## Included Files
 

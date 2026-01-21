@@ -11,6 +11,10 @@ Performance optimization guidance for React and Next.js applications, authored b
 
 No build tooling is committed here; if you regenerate `AGENTS.md` from `rules/`, run your own script or update the compiled file manually to keep it in sync.
 
+## Repository
+
+https://github.com/claude-skills-registry/skills/tree/main/skills/vercel-react-best-practices
+
 ## Adding or Editing Rules
 
 1. Copy `rules/_template.md` to `rules/<area>-<slug>.md` (e.g., `async-parallel.md`).

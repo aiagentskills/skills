@@ -5,7 +5,7 @@ Use this checklist to scan the selected scope (main = comprehensive, or current-
 ## Feature inventory targets
 
 - Public exports: classes, functions, types, and module entry points.
-- Configuration options: `*Options` types, default config objects, and builder patterns.
+- Configuration options: `*Settings` types, default config objects, and builder patterns.
 - Environment variables or runtime flags.
 - CLI commands, scripts, and example entry points that define supported usage.
 - User-facing behaviors: retry, timeouts, streaming, errors, logging, telemetry, and data handling.
@@ -13,17 +13,16 @@ Use this checklist to scan the selected scope (main = comprehensive, or current-
 
 ## Doc-first pass (page-by-page)
 
-- Review each relevant English page (excluding `docs/src/content/docs/openai`).
+- Review each relevant English page (excluding `docs/ja`, `docs/ko`, and `docs/zh`).
 - Look for missing opt-in flags, env vars, or customization options that the page implies.
 - Add new features that belong on that page based on user intent and navigation.
 
 ## Code-first pass (feature inventory)
 
-- Map features to the closest existing page based on package or feature area.
+- Map features to the closest existing page based on the docs navigation in `mkdocs.yml`.
 - Prefer updating existing pages over creating new ones unless the topic is clearly new.
-- Use conceptual pages for cross-cutting concerns (auth, errors, streaming, rate limits).
+- Use conceptual pages for cross-cutting concerns (auth, errors, streaming, tracing, tools).
 - Keep quick-start flows minimal; move advanced details into deeper pages.
-- Exclude `docs/src/content/docs/openai` from coverage checks and updates.
 
 ## Evidence capture
 
@@ -52,6 +51,6 @@ Use this checklist to scan the selected scope (main = comprehensive, or current-
 
 ## Patch guidance
 
-- Keep edits scoped and aligned to existing tone and format.
+- Keep edits scoped and aligned with existing tone and format.
 - Update cross-links when moving or renaming sections.
 - Leave translated docs untouched; English-only updates.

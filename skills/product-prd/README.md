@@ -24,7 +24,7 @@ A product skill that turns discovery notes into clear PRDs with milestones, risk
 
 ## Repository
 
-https://github.com/baptisteArno/typebot.io/tree/main/.claude/skills/product-prd
+https://github.com/claude-skills-registry/skills/tree/main/skills/product-prd
 
 ## Included Files
 

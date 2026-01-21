@@ -24,5 +24,8 @@ Conversion-focused landing page playbook for Claude agents. Use it when auditing
   - Proof: star rating + UGC quote + “Trusted by 250k sleepers” stat.  
   - Primary CTA: “Add to cart”; Microcopy: “Ships today · Free returns.”
 
+## Repository
+https://github.com/claude-skills-registry/skills/tree/main/skills/landing-page-optimizer
+
 ## Files
 - `SKILL.md` — Trigger, workflow, templates, and deliverable checklist.
