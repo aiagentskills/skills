@@ -108,6 +108,7 @@ Current skill folders in `skills/`:
 - `gemini-pr-creator`
 - `gemini-skill-creator`
 - `gerrit-storj`
+- `hermes-tweet`
 - `gh-address-comments`
 - `hook-development`
 - `image-enhancer`

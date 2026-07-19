@@ -292,6 +292,7 @@ const main = () => {
       const detail = [err.error, err.repoPath, err.repoUrl].filter(Boolean).join(' | ');
       console.log(`- ${err.skillName}: ${detail}`);
     }
+    process.exitCode = 1;
   } else {
     console.log('\nAll skills processed successfully.');
   }
